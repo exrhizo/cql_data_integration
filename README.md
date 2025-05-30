@@ -329,6 +329,10 @@ A tutorial example with merge, data-integrity constraints, generating SQL with P
 
 You can read the associated paper which discusses the *science example* in more depth and application of this technology to addressing data-sharing challenges in computational science [here](https://doi.org/10.1016/j.commatsci.2019.04.002) or on [arXiv](https://arxiv.org/abs/1903.10579).
 
+## Ontological fragments prototype
+
+A preliminary `ontological_fragments` module provides Pydantic models for representing partial ontologies and tagging pandas DataFrames with this metadata.
+
 ## Footnotes
 
 <a name="myfootnote1">1</a>: This ID is only for internal bookkeeping and should not be part of the model (all IDs should be interchangeable with any other unique identifier).
